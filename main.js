@@ -106,20 +106,36 @@
 
 
 
+// var a=+prompt()
+// var b=+prompt()
+// var c=+prompt()
+// function min(){
 
-	// var a=+prompt()
-  // var b=+prompt()
-  // var c=+prompt()
 
 
-	// if (a <= b && a <= c)
-	// 	console.log( a + " is the smallest");
 
-	// else if (b <= a && b <= c)
-	// console.log( b + " is the smallest");
+// 	if (a <= b && a <= c)
+// 		console.log( a + " is the smallest");
 
-	// else
-  // console.log( c + " is the smallest");
+// 	else if (b <= a && b <= c)
+// 	console.log( b + " is the smallest");
 
-	
+// 	else
+//   console.log( c + " is the smallest");
 
+// 	}
+// min()
+
+
+
+
+
+
+
+// function sum (num){
+// 	var num=+prompt()
+// 	for(var i=num-1;i>0;i--)
+// 		num+=i
+// 	return	console.log(num)
+// }
+// sum()
