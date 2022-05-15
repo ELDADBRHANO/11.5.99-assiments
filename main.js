@@ -328,8 +328,9 @@
 //   if(array[i]==num){
 //     return true
 //    }
+//   }  
 //   return false
-//   }
+
 // }
 // console.log(myNumbers(8,[7,9,6]))
 
@@ -350,7 +351,7 @@
 //     console.log(save)
 
 // }
-// myArray([2,4,6,3,8])
+// myArray([2,4,6,3,10])
 
 
 
@@ -364,11 +365,36 @@
 
 
 
-function max(array) {
-  for(var i = 0; i<array.length;i++){
-  if(i>0){
-    console.log(i)
-  }
-}
-}
-max([8,7,5,9,10])
+// function myNum(array){
+// var maxNum = 0;
+// for(var i = 0; i<array.length;i++){
+//   if(array[i]>maxNum){
+//     maxNum=array[i]
+//   }
+// }
+//   return maxNum
+// }
+// console.log(myNum([2,4,5,8,10]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function (params) {
+  
+// }
