@@ -323,13 +323,52 @@
 
 
 
-function myNumbers(num,array) {
-for(var i = 0;i < array.length;i++){
-  if(array[i]==num){
-    return true
-  }
-  return false
-}
-}
-myNumbers(8,[8,9,6])
+// function myNumbers(num,array) {
+// for(var i = 0;i < array.length;i++){
+//   if(array[i]==num){
+//     return true
+//    }
+//   return false
+//   }
+// }
+// console.log(myNumbers(8,[7,9,6]))
 
+
+
+
+
+
+
+
+// function myArray(array) {
+//   var save = 0;
+//   for(var i = 0; i < array.length; i++){
+//     if(array[i]%2==0){
+//       save++;
+//     }
+//   }    
+//     console.log(save)
+
+// }
+// myArray([2,4,6,3,8])
+
+
+
+
+
+
+
+
+
+
+
+
+
+function max(array) {
+  for(var i = 0; i<array.length;i++){
+  if(i>0){
+    console.log(i)
+  }
+}
+}
+max([8,7,5,9,10])
