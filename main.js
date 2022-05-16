@@ -441,26 +441,26 @@
 
 
 
-function myArray(array) {
-  var max = true
-  var index;
-  var i=0;
-  while(max==true && i<array.length){
-    if(array[i]%2==0){
-      max = array[i]
-      index = i
-      }
-      i++;
-    }
-    for(var i =0;i<array.length;i++){
-      if(array[i]%2==0){
-        if(array[i]>max){
-          max=array[i]
-          index=i
-        }
-      }
-    }
-    console.log(array)
-    console.log(max, index)
-  }
-myArray([80,7,91,8,50,90])
+// function myArray(array) {
+//   var max = true
+//   var index;
+//   var i=0;
+//   while(max==true && i<array.length){
+//     if(array[i]%2==0){
+//       max = array[i]
+//       index = i
+//       }
+//       i++;
+//     }
+//     for(var i =0;i<array.length;i++){
+//       if(array[i]%2==0){
+//         if(array[i]>max){
+//           max=array[i]
+//           index=i
+//         }
+//       }
+//     }
+//     console.log(array)
+//     console.log(max, index)
+//   }
+// myArray([80,7,91,8,50,90])
