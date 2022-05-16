@@ -464,3 +464,77 @@
 //     console.log(max, index)
 //   }
 // myArray([80,7,91,8,50,90])
+
+
+
+
+
+
+
+
+
+// function myOdd(array) {
+//   var odd = 0
+//   for(var i = 0; i < array.length ;i++){
+//     if(array[i]%2==1){
+//       odd+=array[i]
+//     }
+//   }
+//   console.log(odd)
+// }
+// myOdd([2,,4,5,1])
+
+
+
+
+
+
+// function namesPush(name1,nameArr) {
+//   nameArr.push(name1);
+//     return nameArr
+// }
+// console.log(namesPush("lior",["eldad","or","daniel"]))
+
+
+
+
+
+// function myEmails(email1,emailArr) {
+//   emailArr.unshift(email1)
+//   return emailArr
+// }
+// console.log(myEmails("ebrhago@gmail.com",["ebrhano@gmail.com","lior@gmail.com"]))
+
+
+
+
+
+
+
+// function arrays(arrayNumbers,num) {
+//   for(var i = 0;i<arrayNumbers.length;i++){
+//     if(num%2==0){
+//       arrayNumbers.unshift(num)
+//       return arrayNumbers
+//     }
+//     arrayNumbers.push(num)
+//     return arrayNumbers
+//   }
+  
+// }
+// console.log(arrays([1,2,3,4],4))
+
+
+
+
+// function myNumbers(number1,numArray) {
+//   for(var i = 0; i < numArray.length ; i++){
+//     if(number1==numArray[i]){
+//       numArray.splice(i,1)
+//       return numArray
+//     }
+//   numArray.push(number1)
+//   return numArray
+// }
+// }
+// console.log(myNumbers(1,[2,4,7,9]))
