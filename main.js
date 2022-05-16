@@ -381,6 +381,18 @@
 
 
 
+// function myArrays(array1) {
+//   var minNum = array1[0]
+//   var index = 0
+//   for(var i = 0; i < array1.length;i++){
+//     if(array1[i] <= minNum){
+//       array1[i]=minNum
+//       index = [i]
+//     }
+//   }
+//   return index
+//   }
+//   console.log(myArrays([4,1,6]))
 
 
 
@@ -393,8 +405,62 @@
 
 
 
-
-
-// function (params) {
-  
+// function mySum(array) {
+//   var sum=0
+//   for(var i = 0; i < array.length; i++){
+//    sum+=array[i]
+//   }
+//    return sum
 // }
+//  console.log(mySum([]))
+
+
+
+
+
+
+
+// function minAndMax(array) {
+//   var min = array[0]
+//   var max = 0
+//   for(var i = 0; i < array.length;i++){
+//     if(array[i]<min){
+//       min=array[i]
+//     }
+//     if(array[i]>max){
+//      max= array[i]
+//     }
+//   }
+//   return console.log(min*max)
+// }
+// minAndMax([2,9,10])
+
+
+
+
+
+
+
+// function myArray(array) {
+//   var max = true
+//   var index;
+//   var i=0;
+//   while(max==true && i<array.length){
+//     if(array[i]%2==0){
+//       max = array[i]
+//       index = i
+//       }
+//       i++;
+//     }
+//     for(var i =0;i<array.length;i++){
+//       if(array[i]%2==0){
+//         if(array[i]>max){
+//           max=array[i]
+//           index=i
+//         }
+//       }
+//     }
+//     console.log(array)
+//     console.log(max, index)
+//   }
+// myArray([80,7,91,8,50,90])
