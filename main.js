@@ -538,3 +538,35 @@
 // }
 // }
 // console.log(myNumbers(1,[2,4,7,9]))
+
+// function numbers(num,numAr) {
+//   var numHr=0
+//   for(var i = 0 ; i < numAr.length ; i++){
+//     if(numAr[i] >=numHr){
+//       numHr=numAr[i]
+//     }
+//   }
+//   if(num>numHr){
+//     numAr.unshift(num)
+//   }
+//   else{
+//     numAr.push(num)
+//   }
+//   console.log(numAr)
+// }
+// console.log(numbers(15,[9,0,1,10]))
+
+
+
+
+// function min(num,numArray) {
+// if(num<numArray.length){
+//   numArray.splice(num,1)
+// }
+// console.log(numArray)
+// }
+// min(3,[1,2,3,4])
+
+
+
+
