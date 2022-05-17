@@ -570,3 +570,11 @@
 
 
 
+// function getNumber(num1,num2){
+//   for(var i = num1 ;   i < num2 ; i++){
+//     if(i<=num2){
+//     }
+//     console.log(i)                       
+//   } 
+// }
+//  getNumber(1,7)
