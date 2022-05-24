@@ -584,10 +584,3 @@
 
 
 
-
-
-var num=0;
- var num1=100
- for(var i=0; i<num1;i++){
-   if(num<num1)
- }
